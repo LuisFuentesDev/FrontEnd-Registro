@@ -1,79 +1,39 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Registro APP
 
-# Getting Started
+## Descripción
+Este es un proyecto que desarrollé como prueba de salida del Team Eureka.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Instalación
+1. Clona el repositorio: `https://github.com/LuisFuentesDev/FrontEnd-Registro.git`
+2. Instala las dependencias: `npm install`
 
-## Step 1: Start the Metro Server
+## Uso
+La aplicación tiene 4 pantallas
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+1. Pantalla de inicio: incluye botones de navegación a las demás pantallas.
+<p align="center">
+<img width="290" alt="Captura de pantalla 2023-11-09 a la(s) 18 42 21" src="https://github.com/LuisFuentesDev/FrontEnd-Registro/assets/136398930/50a891e9-3a7e-4d26-bf86-6fbd0870d4e2">
+</p>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+2. Pantalla de registro: permite ingresa un nombre, email y seleccionar un departamento para luego guardar la información en la base de datos.
+<p align="center">
+<img width="294" alt="Captura de pantalla 2023-11-09 a la(s) 18 42 43" src="https://github.com/LuisFuentesDev/FrontEnd-Registro/assets/136398930/faa0feed-7b5e-4ef3-95f1-e14a9da5387f">
+</p>
 
-```bash
-# using npm
-npm start
+3. Pantalla de resultados: muestra la información registrada por medio de un gráfico de barras y una tabla.
+<p align="center">
+<img width="297" alt="Captura de pantalla 2023-11-09 a la(s) 18 43 06" src="https://github.com/LuisFuentesDev/FrontEnd-Registro/assets/136398930/2e0418b7-95d1-49dc-aaf2-a6494ba2176d">
+</p>
 
-# OR using Yarn
-yarn start
+4. Pantalla Acerca de: Información sobre mi.
+<p align="center">
+<img width="286" alt="Captura de pantalla 2023-11-09 a la(s) 18 43 25" src="https://github.com/LuisFuentesDev/FrontEnd-Registro/assets/136398930/e76adb5e-8c04-4f4c-bb60-6c7b236f396d">
+</p>
+
+
+El Backend de la aplicación se encuentra acá:
+
 ```
+https://github.com/LuisFuentesDev/Backend-Registro.git
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
 ```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
