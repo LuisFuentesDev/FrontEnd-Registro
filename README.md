@@ -7,6 +7,11 @@ Este es un proyecto que desarrollé como prueba de salida del Team Eureka.
 1. Clona el repositorio: `https://github.com/LuisFuentesDev/FrontEnd-Registro.git`
 2. Instala las dependencias: `npm install`
 
+## Configuración 
+1. En src/Api/Api.tsx en la línea 7 debes usar tu IP.
+2. En src/screens/RegistrationScreen en la línea 45 debes usar tu IP.
+3. En src/screens/ResultsScreen en la línea 31 debes usar tu IP.
+
 ## Uso
 La aplicación tiene 4 pantallas
 
